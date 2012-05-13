@@ -13,9 +13,6 @@ import android.util.Log;
 public class NotifyReceiver extends BroadcastReceiver {
     @Override
     public void onReceive(Context context, Intent intent) {
-//        Intent serviceIntent = new Intent();
-//		serviceIntent.setAction("org.antosha.NotifyService");
-//		context.startService(serviceIntent);
 
         Intent startServiceIntent = new Intent(context, NotifyService.class);
         context.startService(startServiceIntent);
