@@ -5,7 +5,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.PowerManager;
 import java.util.concurrent.Executors;
-import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
 /**
