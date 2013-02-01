@@ -4,7 +4,6 @@ import android.app.Activity;
 import android.os.Bundle;
 
 /**
- * Created by IntelliJ IDEA.
  * User: arsentyev
  * Date: 10.05.12
  */
